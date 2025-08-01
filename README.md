@@ -1,6 +1,8 @@
 # LeetCode SQL 50
 
-This project solves the entire module of "LeetCode SQL 50" encompassing solutions written in three most famous structured query languages (Oracle SQL, PostgreSQL & MySQL). Includes intuitive and easy to understand answers to all the 50 LeetCode questions that mimics real world analytic scenarios.
+This project solves the entire module of "LeetCode SQL 50" encompassing solutions written in three most famous structured query languages (Oracle SQL, PostgreSQL & MySQL). Additionally, I have also included Pandas solutions, offering a Python-based alternative for data manipulation and analysis.
+
+The repository aims to provide intuitive and easy-to-understand answers to 50 LeetCode SQL problems that mimic real-world analytical scenarios.
 
 ## Repository Structure
 
@@ -9,7 +11,7 @@ This repository is structured as follows:
 1. Each SQL solution is stored in its own file named according to the LeetCode problem title.
 2. Each file will contain both (a) the problem statement and (b) the SQL Code at the buttom of the script.
 3. The solutions are organized into folders based on their corresponding segmentation within the LeetCode website.
-4. There are seven segments in total:
+4. There are eight segments in total:
    - Leetcode SQL 50 Part 1: SELECT Problem Sets
    - Leetcode SQL 50 Part 2: JOINS Problem Sets
    - Leetcode SQL 50 Part 3: Aggregate Functions Problem Sets
@@ -17,6 +19,7 @@ This repository is structured as follows:
    - Leetcode SQL 50 Part 5: Advanced Select and Joins
    - Leetcode SQL 50 Part 6: Subqueries
    - Leetcode SQL 50 Part 7: Advanced String Functions / Regex / Clause
+   - Solutions in Pandas
 
 ## Contents
 
@@ -32,7 +35,15 @@ I have utilized on a range of SQL syntax to answer all the 50 LeetCode problems,
    - Conditional Expressions: WHERE clause, HAVING clause, CASE WHEN
    - etc.
 
-Here's a list of the problems included in this repository:
+### 📌 Additions: Pandas Implementations
+
+To supplement the SQL-based solutions, I have also written **Pandas equivalents** for all the SQL 50 problems. The Pandas solutions demonstrate:
+- How to approach the same problem using Python and DataFrames.
+- How SQL logic translates into Pandas chaining and transformations.
+
+Folder: [Solutions in Pandas](https://github.com/edalisayds/leetcode_sql_50/blob/main/Solutions%20in%20Pandas)
+
+For SQL: Here's a list of the problems included in this repository:
 #### Part 1: SELECT Problem Sets (Problems 1 - 5)
 1. [LeetCode #1757. Recyclable and Low Fat Products](https://github.com/edalisayds/leetcode_sql_50/blob/main/Part%201%20SELECT%20Problem%20Sets%20(Problems%201%20-%205)/01_recyclable_and_low_fat_products.sql)
 2. [LeetCode #584. Find Customer Referee](https://github.com/edalisayds/leetcode_sql_50/blob/main/Part%201%20SELECT%20Problem%20Sets%20(Problems%201%20-%205)/02_find_customer_referee.sql)
